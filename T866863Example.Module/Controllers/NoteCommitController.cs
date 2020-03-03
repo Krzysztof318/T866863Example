@@ -19,6 +19,7 @@ namespace T866863Example.Module.Controllers
 
 			ObjectSpace.Committing += NoteObjectSpaceOnCommitting;
 			ObjectSpace.Committed += NoteObjectSpaceOnCommitted;
+
 		}
 
 		private void NoteObjectSpaceOnCommitting(object sender, CancelEventArgs e)
